@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+
+    <!-- activity_contact_us.xml -->
+    <TextView
+        android:id="@+id/contact_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="#0B0A0A"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Contact us at:" />
+    <TextView
+        android:id="@+id/contact_number_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#0B0A0A"
+        android:layout_below="@+id/contact_info_text_view"
+        android:padding="15dp"
+        android:layout_marginTop="30dp"
+        android:text="Phone:    +19  9111173151" />
+    <TextView
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_number_text_view"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:textColor="#0B0A0A"
+        android:text="Email: koushikiverma19@gmail.com" />
+    <TextView
+        android:id="@+id/instagram_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email_text_view"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:textColor="#0B0A0A"
+        android:text="Instagram: @KO_C_KI" />
+
+</RelativeLayout>

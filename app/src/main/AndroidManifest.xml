@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KIPSTechEra"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AboutUsActivity"/>
+        <activity android:name="ContactUsActivity"/>
+        <activity android:name=".UserLoginActivity"/>
+        <activity android:name=".UserSignupActivity"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".AdminHomeActivity"/>
+        <activity android:name=".AdminLoginActivity"/>
+        <activity android:name=".AddAdminActivity"/>
+        <activity android:name=".ViewUsersActivity"/>
+        <activity android:name=".CourseActivity"/>
+        <activity android:name=".JavaTopicActivity"/>
+        <activity android:name=".CTopicActivity"/>
+        <activity android:name=".WebTopicActivity"/>
+        <activity android:name=".AndroidTopicActivity"/>
+        <activity android:name=".PhpTopicActivity"/>
+        <activity android:name=".PythonTopicActivity"/>
+        <activity android:name=".AndroidWayActivity"/>
+        <activity android:name=".CWayActivity"/>
+        <activity android:name=".PythonWayActivity"/>
+        <activity android:name=".PhpWayActivity"/>
+        <activity android:name=".JavaWayActivity"/>
+        <activity android:name=".WebWayActivity"/>
+        <activity android:name=".AndroidOverviewActivity"/>
+        <activity android:name=".AndroidInstallActivity"/>
+        <activity android:name=".AndroidViewsActivity"/>
+        <activity android:name=".AndroidSqliteActivity"/>
+        <activity android:name=".AndroidThreadActivity"/>
+        <activity android:name=".COverviewActivity"/>
+        <activity android:name=".CBasicsActivity"/>
+        <activity android:name=".CProgramsActivity"/>
+        <activity android:name=".CvsCPPActivity"/>
+        <activity android:name=".COOPsActivity"/>
+        <activity android:name=".JavaOverviewActivity"/>
+        <activity android:name=".JavaBasicsActivity"/>
+        <activity android:name=".JavaOOPsActivity"/>
+        <activity android:name=".JavaThreadActivity"/>
+        <activity android:name=".JavaAppletsActivity"/>
+        <activity android:name=".WebOverviewActivity"/>
+        <activity android:name=".WebHtmlActivity"/>
+        <activity android:name=".WebCssActivity"/>
+        <activity android:name=".WebJSActivity"/>
+        <activity android:name=".WebDiffHtmlCssJSActivity"/>
+        <activity android:name=".PhpOverviewActivity"/>
+        <activity android:name=".PhpBasicsActivity"/>
+        <activity android:name=".PhpInstallationActivity"/>
+        <activity android:name=".PhpDatabaseActivity"/>
+        <activity android:name=".PhpOopsActivity"/>
+        <activity android:name=".PythonOverviewActivity"/>
+        <activity android:name=".PythonBasicsActivity"/>
+        <activity android:name=".PythonOopsActivity"/>
+        <activity android:name=".PythonDSActivity"/>
+        <activity android:name=".PythonExceptionsActivity"/>
+        <activity android:name=".CCPPVideosActivity"/>
+        <activity android:name=".JavaVideosActivity"/>
+        <activity android:name=".WebVideosActivity"/>
+        <activity android:name=".AndroidVideosActivity"/>
+        <activity android:name=".PhpVideosActivity"/>
+        <activity android:name=".PythonVideosActivity"/>
+        <activity android:name=".CCPPQuizMainActivity"/>
+        <activity android:name=".WebQuizMainActivity"/>
+        <activity android:name=".JavaQuizMainActivity"/>
+        <activity android:name=".AndroidQuizMainActivity"/>
+        <activity android:name=".PhpQuizMainActivity"/>
+        <activity android:name=".PythonQuizMainActivity"/>
+        <activity android:name=".AndroidCertificateActivity"/>
+        <activity android:name=".CCPPCertificateActivity"/>
+        <activity android:name=".JavaCertificateActivity"/>
+        <activity android:name=".PhpCertificateActivity"/>
+        <activity android:name=".PythonCertificateActivity"/>
+        <activity android:name=".WebCertificateActivity"/>
+    </application>
+
+</manifest>

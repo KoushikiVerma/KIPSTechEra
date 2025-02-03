@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+
+    <Button
+        android:id="@+id/btn_admin_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#79B335"
+        android:text="Login As Admin"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_user_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#79B335"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btn_admin_login"
+        android:text="Login As User"/>
+
+</RelativeLayout>

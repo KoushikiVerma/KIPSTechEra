@@ -1,0 +1,33 @@
+<!-- This file contains the layout for admin home UI -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Home"
+        android:textColor="@color/teal_700"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"/>
+
+    <Button
+        android:id="@+id/btnAddAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Admin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"/>
+
+    <Button
+        android:id="@+id/btnViewAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Users"
+        android:layout_below="@id/btnAddAdmin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+</RelativeLayout>

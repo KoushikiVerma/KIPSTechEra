@@ -1,0 +1,22 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/action_home" />
+    <item
+        android:title="About Us"
+        android:id="@+id/action_about_us" />
+    <item
+        android:title="Contact Us"
+        android:id="@+id/action_contact_us" />
+    <item
+        android:title="Rate Us"
+        android:id="@+id/action_rate_us" />
+    <item
+        android:title="Share"
+        android:id="@+id/action_share" />
+    <item
+        android:title="Logout"
+        android:id="@+id/action_logout"/>
+
+</menu>

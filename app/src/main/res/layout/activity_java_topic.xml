@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewST"
+        android:src="@drawable/topicselection"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="80dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+          <Button
+              android:id="@+id/btn_j1"
+              android:layout_width="200dp"
+              android:layout_height="wrap_content"
+              android:backgroundTint="#79BD7C"
+              android:text="Java Overview"
+              tools:ignore="HardcodedText,UnusedAttribute,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btn_j2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#79BD7C"
+            android:padding="20dp"
+            android:text="Java Basics"
+            tools:ignore="HardcodedText,UnusedAttribute,TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btn_j3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#79BD7C"
+            android:padding="20dp"
+            android:text="Java OOPs"
+            tools:ignore="HardcodedText,TextContrastCheck,UnusedAttribute" />
+
+        <Button
+            android:id="@+id/btn_j4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#79BD7C"
+            android:padding="20dp"
+            android:text="Thread and Exception"
+            tools:ignore="HardcodedText,UnusedAttribute,TextContrastCheck" />
+        <Button
+            android:id="@+id/btn_j5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="#79BD7C"
+            android:padding="20dp"
+            android:text="Java Applets"
+            tools:ignore="HardcodedText,TextContrastCheck,UnusedAttribute" />
+
+
+    </LinearLayout>
+</RelativeLayout>

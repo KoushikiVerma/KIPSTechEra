@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>activity_web.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_web.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;RelativeLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;@color/white&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;include </span><span class="s1">layout</span><span class="s2">=&quot;@layout/toolbar&quot;</span><span class="s0">/&gt;</span>
+
+
+    <span class="s0">&lt;ImageView</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/imageViewST&quot;</span>
+        <span class="s1">android:src</span><span class="s2">=&quot;@drawable/topicselection&quot;</span>
+        <span class="s1">android:layout_centerHorizontal</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:layout_alignParentTop</span><span class="s2">=&quot;true&quot;</span>
+        <span class="s1">android:layout_marginTop</span><span class="s2">=&quot;80dp&quot;</span>
+        <span class="s0">/&gt;</span>
+    <span class="s0">&lt;LinearLayout</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+        <span class="s1">android:orientation</span><span class="s2">=&quot;vertical&quot;</span>
+        <span class="s1">android:gravity</span><span class="s2">=&quot;center&quot;</span><span class="s0">&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn_web1&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_horizontal&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#79BD7C&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;Introduction to HTML, CSS and JAVASCRIPT&quot;</span>
+            <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,UnusedAttribute,TextContrastCheck&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn_web2&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_horizontal&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#79BD7C&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;HTML Basics&quot;</span>
+            <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,UnusedAttribute,TextContrastCheck&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn_web3&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_horizontal&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#79BD7C&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;CSS Basics&quot;</span>
+            <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,TextContrastCheck,UnusedAttribute&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn_web4&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_horizontal&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#79BD7C&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;JAVASCRIPT Basics &quot;</span>
+            <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,UnusedAttribute,TextContrastCheck&quot; </span><span class="s0">/&gt;</span>
+
+        <span class="s0">&lt;Button</span>
+            <span class="s1">android:id</span><span class="s2">=&quot;@+id/btn_web5&quot;</span>
+            <span class="s1">android:layout_width</span><span class="s2">=&quot;200dp&quot;</span>
+            <span class="s1">android:layout_height</span><span class="s2">=&quot;wrap_content&quot;</span>
+            <span class="s1">android:layout_gravity</span><span class="s2">=&quot;center_horizontal&quot;</span>
+            <span class="s1">android:backgroundTint</span><span class="s2">=&quot;#79BD7C&quot;</span>
+            <span class="s1">android:padding</span><span class="s2">=&quot;20dp&quot;</span>
+            <span class="s1">android:text</span><span class="s2">=&quot;HTML vs. CSS vs. js&quot;</span>
+            <span class="s1">tools:ignore</span><span class="s2">=&quot;HardcodedText,TextContrastCheck,UnusedAttribute&quot; </span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;/LinearLayout&gt;</span>
+<span class="s0">&lt;/RelativeLayout&gt;</span></pre>
+</body>
+</html>

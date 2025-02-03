@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearlayout"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV1"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/videoc1"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV2"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/videoc2"
+            android:scaleType="fitXY"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV3"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/videoc3"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV4"
+            android:backgroundTint="@color/white"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/videoc4"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV5"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/videoc5"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/btnCV6"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:src="@drawable/videoc6"
+            android:scaleType="fitXY"/>
+
+    </LinearLayout>
+
+</ScrollView>

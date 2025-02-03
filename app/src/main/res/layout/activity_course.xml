@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageViewS"
+        android:src="@drawable/explang"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp" />
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/imageViewS"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/linearlayout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearlayout1"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/imageButtonC"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/imgc_cpp"
+                    android:scaleType="fitStart"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"/>
+                <ImageButton
+                    android:id="@+id/imageButtonJava"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    app:srcCompat="@drawable/imgjava"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="2dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearlayout2"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/imageButtonWeb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/imgweb"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp" />
+
+                <ImageButton
+                    android:id="@+id/imageButtonAndroid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginLeft="2dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/imgandroid"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearlayout3"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/imageButtonPhp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/imgphp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp" />
+                <ImageButton
+                    android:id="@+id/imageButtonPython"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/imgpython"
+                    android:scaleType="fitXY"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginStart="2dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

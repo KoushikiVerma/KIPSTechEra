@@ -1,0 +1,10 @@
+# Ignore system files
+AppData/
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# Ignore Spotify cache directories
+AppData/Local/Packages/SpotifyAB.SpotifyMusic_zpdnekdrzrea0/LocalCache/

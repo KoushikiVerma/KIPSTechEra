@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/activity_toolbar"/>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+            <TextView
+                android:id="@+id/about_us_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="About KIPS TECH ERA"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/about_us_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="Welcome to KIPS TECH ERA, your ultimate destination for learning computer languages, programming concepts, and gaining expertise in various technical domains. We are committed to providing high-quality educational content, including video tutorials, study materials, and interactive exercises, to help you advance your skills and excel in the world of technology."
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/our_mission_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="OUR MISSION"
+                android:layout_marginLeft="50dp"/>
+
+            <TextView
+                android:id="@+id/our_mission_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="At KIPS TECH ERA, our mission is to empower learners from all backgrounds to unlock their full potential in the field of technology. We strive to make learning accessible, engaging, and effective, enabling individuals to pursue their passions, achieve their goals, and thrive in the rapidly evolving digital landscape."
+                android:layout_marginRight="40dp"/>
+            <!-- Add more TextViews for other information -->
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
